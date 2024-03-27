@@ -6,6 +6,7 @@ public class Triangle extends Shape{
 	private int height;
 	
 	public Triangle(int width, int height) {
+		// 왜냐면 기본생성자를 자동 으로 불러오는데, 엄마에 기본생성자가 없어
 		this.width = width;
 		this.height = height;
 	}
