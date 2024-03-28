@@ -5,6 +5,9 @@ public class Shape {
 	protected String fillColor;
 	protected String lineColor;
 	
+	// 생성자 선언하지 않으면 기본 생성자를 자동으로 추가한다.
+	// 임의로 생성자를 선언하면 기본 생성자를 자동으로 추가하지 않는다.
+	
 	public Shape() {
 		
 	}
@@ -14,22 +17,16 @@ public class Shape {
 		this.lineColor = lineColor;
 	}
 	
-//	public String getFillColor() {
-//		return fillColor;
-//	}
-	
+
 	public void setFillColor(String fillColor) {
 		this.fillColor = fillColor;
 	}
 	
-//	public String getLineColor() {
-//		return lineColor;
-//	}
-	
-	public void setLineColor(String linColor) {
+	public void setLineColor(String lineColor) {
 		this.lineColor = lineColor;
 	}
 
 	
 }
+
 

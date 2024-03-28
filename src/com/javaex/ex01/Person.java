@@ -12,7 +12,7 @@ public class Person {
 	}
 	
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	
 	public void setName(String name) {
@@ -20,7 +20,7 @@ public class Person {
 	}
 	
 	public String getHp() {
-		return hp;
+		return this.hp;
 	}
 	
 	public void setHp(String hp) {

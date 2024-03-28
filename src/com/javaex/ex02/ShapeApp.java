@@ -8,7 +8,7 @@ public class ShapeApp {
 		System.out.println("================");
 		// Str 값 2개이기 때문에, Shape class > S2 = "생성자 Shape(2) 실행" + "================"
 		
-		Triangle t1 = new Triangle();
+		Triangle t1 = new Triangle(); // 	기본 생성자
 		System.out.println("================");
 		
 		// Str 값 없기 때문에, Shape class > S0 > T0  = "생성자 Shape(0) 실행" + "생성자 Triangle(0) 실행" + "================"
